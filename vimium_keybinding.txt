@@ -1,0 +1,4 @@
+map h goBack
+map l goForward
+map H previousTab
+map L nextTab
