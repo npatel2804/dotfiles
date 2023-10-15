@@ -1,0 +1,277 @@
+{
+  "workbench.colorTheme": "Kimbie Dark",
+  "workbench.tree.indent": 16,
+  "files.autoSave": "afterDelay",
+  "files.hotExit": "onExitAndWindowClose",
+  "window.restoreWindows": "folders",
+  "go.formatTool": "gofmt",
+  "go.formatFlags": [
+    "-s"
+  ],
+  "go.useLanguageServer": true,
+  "go.gotoSymbol.includeImports": true,
+  "go.installDependenciesWhenBuilding": true,
+  "go.lintTool": "golangci-lint",
+  "go.logging.level": "verbose",
+  "vim.smartRelativeLine": true,
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "h",
+        "h"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+    {
+      "before": [
+        "<c-j>"
+      ],
+      "after": [
+        "<C-o>",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<c-k>"
+      ],
+      "after": [
+        "<c-o>",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "<c-h>"
+      ],
+      "after": [
+        "<C-o>",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "<c-l>"
+      ],
+      "after": [
+        "<C-o>",
+        "l"
+      ]
+    },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        ":w",
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "w",
+        "q"
+      ],
+      "commands": [
+        ":wq",
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "q"
+      ],
+      "commands": [
+        ":q",
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "commands": [
+        ":tabn"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "commands": [
+        ":tabp"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "L"
+      ],
+      "commands": [
+        ":tabm +1"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "H"
+      ],
+      "commands": [
+        ":tabm -1"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "c"
+      ],
+      "commands": [
+        ":tabm -1"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "x"
+      ],
+      "commands": [
+        ":noh"
+      ]
+    },
+    {
+      "before": [
+        "J"
+      ],
+      "after": [
+        "2",
+        "5",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "after": [
+        "2",
+        "5",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "h"
+      ],
+      "after": [
+        "<C-w>",
+        "h"
+      ]
+    },
+  ],
+  "vim.leader": ",",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "scm.alwaysShowActions": true,
+  "workbench.sideBar.location": "left",
+  "editor.lineNumbers": "relative",
+  "editor.renderWhitespace": "all",
+  "go.coverageDecorator": {
+    "type": "gutter"
+  },
+  "go.coverMode": "set",
+  "go.toolsManagement.autoUpdate": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "go.testTimeout": "30m",
+  "cSpell.userWords": [
+    "controltower",
+    "kubeconfig",
+    "nolint",
+    "updation"
+  ],
+  "cSpell.showAutocompleteSuggestions": true,
+  "cSpell.language": "en-GB",
+  "cSpell.includeRegExpList": [
+    "//.+$",
+    "\".+\""
+  ],
+  "yaml.schemas": {
+    "file:///Users/nikhil/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "go.buildOnSave": "off",
+  "go.lintFlags": [
+    "-exclude={$workspaceFolder}/pkg/mod/",
+  ],
+  // Specify paths/files to ignore.
+  "cSpell.ignorePaths": [
+    "mod", // this will ignore anything the node_modules directory
+  ],
+  "vs-kubernetes": {
+    "vs-kubernetes.crd-code-completion": "disabled"
+  },
+  "git.ignoreRebaseWarning": false,
+  "git.fetchOnPull": true,
+  "git.rebaseWhenSync": true,
+  "git.verboseCommit": true,
+  "git.branchProtection": [
+    "master",
+    "main"
+  ],
+  "terminal.integrated.scrollback": 100000,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnType": true,
+  },
+  "gopls": {
+    "completeUnimported": false,
+    "formatting.gofumpt": false
+  },
+  "vim.highlightedyank.enable": true,
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.insert": "#5f0000",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#145A32",
+    "statusBar.noFolderBackground": "#145A32",
+    "statusBar.debuggingBackground": "#145A32"
+  },
+  "vim.statusBarColors.normal": "#145A32",
+  "vim.statusBarColors.commandlineinprogress": "#4A235A",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "cSpell.caseSensitive": true,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.snippetSuggestions": "bottom",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "git.suggestSmartCommit": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+}
