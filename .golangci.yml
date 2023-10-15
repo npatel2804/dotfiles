@@ -1,0 +1,17 @@
+issues:
+  exclude:
+    - "should not use dot imports"
+    - "blank-imports:"
+linters:
+  enable-all: true
+  disable:
+    - exhaustivestruct
+    - exhaustruct
+    - gomnd
+    - gci
+    - misspell
+    - gochecknoglobals
+  #  presets:
+  #    - bugs
+  #    - unused
+  fast: true
